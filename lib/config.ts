@@ -7,8 +7,18 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
+    label: "What programs",
+    prompt: "Compare programs (e.g., camps vs. travel teams) ",
+    icon: "circle-question",
+  },
+  {
+    label: "Camp fees",
+    prompt: "What are the camp fees?",
+    icon: "circle-question",
+  },
+   {
+    label: "Billing issues",
+    prompt: "I have a billing issue.",
     icon: "circle-question",
   },
 ];
