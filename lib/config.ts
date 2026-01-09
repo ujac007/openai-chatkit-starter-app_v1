@@ -41,5 +41,12 @@ export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   },
   radius: "round",
   // Add other theme options here
+
+  color: {
+      surface: {
+        background: '#671e1e',
+        foreground: '#1a1919'
+      }
+    },
   // chatkit.studio/playground to explore config options
 });
