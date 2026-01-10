@@ -28,17 +28,17 @@ export const PLACEHOLDER_INPUT = "Ask anything...";
 export const GREETING = "Welcome to Future Star! How can I help you today?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
-  color: {
-    grayscale: {
-      hue: 325,
-      tint: 9,
-      shade: theme === "dark" ? -1 : -2,
-    },
-    accent: {
-      primary: theme === "dark" ? "#f1f5f9" : "#0f172a",
-      level: 1,
-    },
-  },
+  // color: {
+  //   grayscale: {
+  //     hue: 325,
+  //     tint: 9,
+  //     shade: theme === "dark" ? -1 : -2,
+  //   },
+  //   accent: {
+  //     primary: theme === "dark" ? "#f1f5f9" : "#0f172a",
+  //     level: 1,
+  //   },
+  // },
   radius: "round",
   // Add other theme options here
 
