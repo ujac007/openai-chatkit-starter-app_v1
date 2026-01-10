@@ -35,5 +35,9 @@ body {
 
 // Reduce spacing - uj
 .min-h-screen {
-  min-height: auto !important;
+  min-height: 0 !important;
+}
+
+.dark\:bg-slate-950 {
+  background-color: transparent !important;
 }
