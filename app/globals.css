@@ -27,17 +27,10 @@
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", monospace;
 }
 
+html,
 body {
-  background: var(--background);
+  background: transparent;
   color: var(--foreground);
   font-family: var(--font-sans);
-}
-
-// Reduce spacing - uj
-.min-h-screen {
-  min-height: 0 !important;
-}
-
-.dark\:bg-slate-950 {
-  background-color: transparent !important;
+  min-height: 0;
 }
