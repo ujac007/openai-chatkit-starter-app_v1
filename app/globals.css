@@ -27,10 +27,8 @@
   --font-mono: SFMono-Regular, Consolas, "Liberation Mono", monospace;
 }
 
-html,
 body {
-  background: transparent;
+  background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
-  min-height: 0;
 }
