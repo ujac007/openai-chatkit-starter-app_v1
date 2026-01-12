@@ -21,6 +21,21 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     prompt: "I have a billing issue.",
     icon: "circle-question",
   },
+   {
+    label: "Future Star programs",
+    prompt: "What programs are available? ",
+    icon: "circle-question",
+  },
+  {
+    label: "What are the camp fees?",
+    prompt: "What are the camp fees?",
+    icon: "circle-question",
+  },
+   {
+    label: "Billing issues",
+    prompt: "I have a billing issue.",
+    icon: "circle-question",
+  },
 ];
 
 export const PLACEHOLDER_INPUT = "Ask anything...";
@@ -28,25 +43,25 @@ export const PLACEHOLDER_INPUT = "Ask anything...";
 export const GREETING = "Welcome to Future Star! How can I help you today?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
-  color: {
-    grayscale: {
-      hue: 325,
-      tint: 9,
-      shade: theme === "dark" ? -1 : -2,
-    },
-    accent: {
-      primary: theme === "dark" ? "#f1f5f9" : "#0f172a",
-      level: 1,
-    },
-  },
+  // color: {
+  //   grayscale: {
+  //     hue: 325,
+  //     tint: 9,
+  //     shade: theme === "dark" ? -1 : -2,
+  //   },
+  //   accent: {
+  //     primary: theme === "dark" ? "#f1f5f9" : "#0f172a",
+  //     level: 1,
+  //   },
+  // },
   radius: "round",
   // Add other theme options here
 
-  // color: {
-  //     surface: {
-  //       background: '#671e1e',
-  //       foreground: '#1a1919'
-  //     },
-  //   },
+  color: {
+      surface: {
+        background: '#671e1e',
+        foreground: '#1a1919'
+      },
+    },
   // chatkit.studio/playground to explore config options
 });
