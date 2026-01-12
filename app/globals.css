@@ -10,6 +10,7 @@
   --background: #0a0a0a;
   --foreground: #ededed;
   color-scheme: dark;
+  --color-surface: #671e1e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32,3 +33,5 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
+
+
