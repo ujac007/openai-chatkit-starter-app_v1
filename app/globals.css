@@ -32,8 +32,3 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
 }
-
-// Reduce spacing - uj
-.min-h-screen {
-  min-height: auto !important;
-}
