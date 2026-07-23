@@ -12,13 +12,28 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
     icon: "circle-question",
   },
   {
-    label: "What are the camp fees?",
+    label: "Camp schedules?",
+    prompt: "What are the camp schedules?",
+    icon: "circle-question",
+  },
+  {
+    label: "Camp fees?",
     prompt: "What are the camp fees?",
     icon: "circle-question",
   },
    {
     label: "Billing issues",
     prompt: "I have a billing issue.",
+    icon: "circle-question",
+  },
+   {
+    label: "Travel Ball",
+    prompt: "Tell me more about FS Travel Ball",
+    icon: "circle-question",
+  },
+   {
+    label: "Private Lessons",
+    prompt: "What Private Lessons do you offer",
     icon: "circle-question",
   },
 ];
